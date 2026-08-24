@@ -105,4 +105,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Sai Tharun Velpula**
-- GitHub: [@velpulasaitharun](https://github.com/velpulasaitharun)
+- GitHub: [@Saitharun](https://github.com/sai-tharun-velpula)
