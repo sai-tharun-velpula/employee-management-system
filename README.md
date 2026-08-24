@@ -105,4 +105,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Sai Tharun Velpula**
-- GitHub: [@Saitharun](https://github.com/sai-tharun-velpula)
+- LinkedIn: [linkedin.com/in/saitharunvelpula](https://www.linkedin.com/in/saitharunvelpula)
+- Portfolio: [saitharunvelpula.netlify.app](https://saitharunvelpula.netlify.app)
+- GitHub: [@sai-tharun-velpula](https://github.com/sai-tharun-velpula)
