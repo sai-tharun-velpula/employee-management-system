@@ -1,48 +1,58 @@
 # Employee Management System (HRMS)
 
-A full-featured Human Resource Management System built with **ASP.NET Core MVC**, **C#**, **Entity Framework Core**, and **Microsoft SQL Server**. Designed to streamline core HR operations — from employee onboarding to payroll — with secure, role-based access for administrators, HR staff, and employees.
+A full-featured Human Resource Management System built with **ASP.NET Core MVC**, **C#**, **Entity Framework Core**, and **Microsoft SQL Server**. The platform streamlines core HR operations including employee management, attendance, leave management, payroll, departments, designations, holidays, and audit tracking through a secure, role-based access model for administrators, HR staff, and employees.
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
-![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core%20MVC-8.0-512BD4?logo=dotnet)
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp\&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-8.0-512BD4?logo=dotnet)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap\&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
 ## 📌 Overview
 
-HRMS is a centralized platform for managing an organization's workforce. It replaces manual, spreadsheet-driven HR processes with a secure web application that handles employee records, attendance, leave requests, payroll, and departmental structure — with a full audit trail for accountability.
+HRMS is a centralized web application for managing an organization's workforce. It provides a structured platform for maintaining employee records, departments, designations, attendance, leave requests, payroll, holidays, user accounts, and audit activities within a secure, role-based system.
 
 ## ✨ Features
 
-- **Employee Management** — Create, update, and maintain detailed employee profiles
-- **Attendance Tracking** — Record and monitor daily employee attendance
-- **Leave Management** — Submit, approve, and track leave requests
-- **Payroll Processing** — Manage salary structures and payroll generation
-- **Departments & Designations** — Organize employees by department and job role
-- **Authentication & Authorization** — Secure login with role-based access control (Admin / HR / Employee)
-- **Audit Logging** — Track key actions across the system for accountability and compliance
+* **Employee Management** — Create, update, view, and manage employee records
+* **Attendance Tracking** — Manage Punch In/Punch Out, working hours, attendance status, and automatic absence tracking
+* **Leave Management** — Submit, approve, reject, and track employee leave requests
+* **Payroll Management** — Manage employee salary information and payroll records
+* **Departments & Designations** — Create and manage organizational departments and job designations
+* **Holiday Management** — Maintain organizational holidays and holiday records
+* **User Management** — Manage application users and employee access
+* **Authentication & Authorization** — Secure login with role-based access control (Admin / HR / Employee)
+* **Audit Logging** — Track key user actions and system activities for accountability
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Backend | ASP.NET Core MVC, C# |
-| Data Access | Entity Framework Core |
-| Database | Microsoft SQL Server |
-| Frontend | HTML, CSS, Bootstrap |
+| Layer           | Technology                                       |
+| --------------- | ------------------------------------------------ |
+| Backend         | ASP.NET Core MVC, C#                             |
+| Data Access     | Entity Framework Core, LINQ                      |
+| Database        | Microsoft SQL Server                             |
+| Frontend        | HTML5, CSS3, JavaScript, Bootstrap               |
+| UI              | Razor Views                                      |
+| Security        | Authentication, Authorization, Claims, Session   |
+| Development     | Visual Studio 2022, SQL Server Management Studio |
 
 ## 🏗️ Architecture
 
-The project follows the **MVC (Model-View-Controller)** pattern with a layered approach:
+The project follows the **MVC (Model-View-Controller)** pattern with a clearly structured application architecture:
 
-```
+```text
 HRMS/
-├── Controllers/     # Handle HTTP requests and business logic flow
-├── Models/          # Domain entities and EF Core data models
+├── Controllers/     # Handle HTTP requests and application workflows
+├── Models/          # Application entities and data models
 ├── Views/           # Razor views (UI)
-├── Data/            # DbContext, migrations, seed data
-├── Services/        # Business logic / reusable services
+├── Data/            # DbContext and database configuration
+├── Services/        # Application and background services
+├── Migrations/      # Entity Framework Core database migrations
 └── wwwroot/         # Static assets (CSS, JS, images)
 ```
 
@@ -50,21 +60,24 @@ HRMS/
 
 ### Prerequisites
 
-- [.NET SDK 8.0+](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/sql-server) (or SQL Server Express / LocalDB)
-- Visual Studio 2022 or VS Code
+* .NET SDK 8.0+
+* SQL Server (or SQL Server Express / LocalDB)
+* Visual Studio 2022
+* Entity Framework Core CLI
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/velpulasaitharun/Employee-Management-System.git
-   cd Employee-Management-System
+   git clone https://github.com/sai-tharun-velpula/employee-management-system.git
+   cd employee-management-system
    ```
 
 2. **Configure the database connection**
 
    Update the connection string in `appsettings.json`:
+
    ```json
    "ConnectionStrings": {
      "DefaultConnection": "Server=YOUR_SERVER;Database=HRMSDb;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -72,37 +85,41 @@ HRMS/
    ```
 
 3. **Apply migrations**
+
    ```bash
    dotnet ef database update
    ```
 
 4. **Run the application**
+
    ```bash
    dotnet run
    ```
 
-5. Open your browser at `https://localhost:5001` (or the port shown in your terminal).
+   Then open your browser at the URL shown in the terminal.
 
 ## 📸 Screenshots
 
-> _Add screenshots of the dashboard, employee list, and login page here to give visitors a quick visual tour._
+*Screenshots of the login page, dashboard, employee management, attendance, leave management, payroll, and audit log pages will be added here to provide a visual overview of the application.*
 
 ## 🗺️ Roadmap
 
-- [ ] Add unit and integration tests
-- [ ] Add employee self-service portal enhancements
-- [ ] Add email notifications for leave approvals
-- [ ] Deploy a live demo
+* [ ] Add unit and integration tests
+* [ ] Enhance employee self-service functionality
+* [ ] Add email notifications for leave approvals
+* [ ] Add advanced HR reports and analytics
+* [ ] Deploy a live demo
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](../../issues) or open a pull request.
+Contributions, issues, and feature requests are welcome. Please check the [issues page](https://github.com/velpulasaitharun/Employee-Management-System/issues) or open a pull request.
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
 **Sai Tharun Velpula**
-- GitHub: [@sai-tharun-velpula](https://github.com/sai-tharun-velpula)
+
+GitHub: [@sai-tharun-velpula](https://github.com/sai-tharun-velpula)
