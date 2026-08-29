@@ -101,7 +101,89 @@ HRMS/
 
 ## 📸 Screenshots
 
-*Screenshots of the login page, dashboard, employee management, attendance, leave management, payroll, and audit log pages will be added here to provide a visual overview of the application.*
+### 🔐 Login
+
+<img src="Screenshots/login.png" alt="HRMS Login" width="500">
+
+### 👤 Create Account
+
+<img src="Screenshots/create-account.png" alt="Create Employee Account" width="500">
+
+---
+
+## 👨‍💼 Admin
+
+### 📊 Dashboard
+
+<div>
+  <img src="Screenshots/admin-dashboard-overview.png" alt="Admin Dashboard" width="300">
+  <img src="Screenshots/admin-dashboard-overview-1.png" alt="Admin Dashboard Overview" width="300">
+  <img src="Screenshots/admin-dashboard-overview-2.png" alt="Admin Dashboard Analytics" width="300">
+</div>
+
+### 👥 Employee Management
+
+<img src="Screenshots/admin-employees.png" alt="Admin Employee Management" width="500">
+
+### 🏢 Departments & Designations
+
+<div>
+  <img src="Screenshots/departments.png" alt="Department Management" width="300">
+  <img src="Screenshots/designations.png" alt="Designation Management" width="300">
+</div>
+
+### 🕐 Attendance
+
+<div>
+  <img src="Screenshots/admin-attendance.png" alt="Admin Attendance Management" width="300">
+  <img src="Screenshots/employees-attendence.png" alt="Employee Attendance" width="300">
+</div>
+
+### 💰 Payroll & Holidays
+
+<div>
+  <img src="Screenshots/payroll-management.png" alt="Payroll Management" width="300">
+  <img src="Screenshots/holidays.png" alt="Holiday Management" width="300">
+</div>
+
+### 📋 Audit Logs
+
+<img src="Screenshots/audit-logs.png" alt="Audit Logs" width="500">
+
+---
+
+## 👩‍💼 HR
+
+### 📊 Dashboard
+
+<div>
+  <img src="Screenshots/hr-dashboard-overview.png" alt="HR Dashboard" width="300">
+  <img src="Screenshots/hr-dashboard-overview-1.png" alt="HR Dashboard Overview" width="300">
+  <img src="Screenshots/hr-dashboard-overview-2.png" alt="HR Dashboard Analytics" width="300">
+</div>
+
+### 👥 Employee Management
+
+<img src="Screenshots/hr-employees.png" alt="HR Employee Management" width="500">
+
+### 🕐 Attendance
+
+<img src="Screenshots/hr-attendance.png" alt="HR Attendance Management" width="500">
+
+---
+
+## 🧑‍💻 Employee
+
+### 📊 Dashboard
+
+<img src="Screenshots/employee-dashboard.png" alt="Employee Dashboard" width="500">
+
+### 📝 Leave Management
+
+<div>
+  <img src="Screenshots/employee-leave-request.png" alt="Employee Leave Request" width="300">
+  <img src="Screenshots/employee-leave-request-details.png" alt="Employee Leave Request Details" width="300">
+</div>
 
 ## 🗺️ Roadmap
 
