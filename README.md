@@ -103,11 +103,11 @@ HRMS/
 
 ### 🔐 Login
 
-<img src="Screenshots/login.png" alt="HRMS Login" width="500">
+<img src="Screenshots/login.png" alt="HRMS Login" width="400">
 
 ### 👤 Create Account
 
-<img src="Screenshots/create-account.png" alt="Create Employee Account" width="500">
+<img src="Screenshots/create-account.png" alt="Create Employee Account" width="400">
 
 ---
 
@@ -116,14 +116,14 @@ HRMS/
 ### 📊 Dashboard
 
 <div>
-  <img src="Screenshots/admin-dashboard-overview.png" alt="Admin Dashboard" width="300">
-  <img src="Screenshots/admin-dashboard-overview-1.png" alt="Admin Dashboard Overview" width="300">
-  <img src="Screenshots/admin-dashboard-overview-2.png" alt="Admin Dashboard Analytics" width="300">
+  <img src="Screenshots/admin-dashboard-overview.png" alt="Admin Dashboard" width="280">
+  <img src="Screenshots/admin-dashboard-overview-1.png" alt="Admin Dashboard Overview" width="280">
+  <img src="Screenshots/admin-dashboard-overview-2.png" alt="Admin Dashboard Analytics" width="280">
 </div>
 
 ### 👥 Employee Management
 
-<img src="Screenshots/admin-employees.png" alt="Admin Employee Management" width="500">
+<img src="Screenshots/admin-employees.png" alt="Admin Employee Management" width="400">
 
 ### 🏢 Departments & Designations
 
@@ -148,7 +148,7 @@ HRMS/
 
 ### 📋 Audit Logs
 
-<img src="Screenshots/audit-logs.png" alt="Audit Logs" width="500">
+<img src="Screenshots/audit-logs.png" alt="Audit Logs" width="400">
 
 ---
 
@@ -157,18 +157,18 @@ HRMS/
 ### 📊 Dashboard
 
 <div>
-  <img src="Screenshots/hr-dashboard-overview.png" alt="HR Dashboard" width="300">
-  <img src="Screenshots/hr-dashboard-overview-1.png" alt="HR Dashboard Overview" width="300">
-  <img src="Screenshots/hr-dashboard-overview-2.png" alt="HR Dashboard Analytics" width="300">
+  <img src="Screenshots/hr-dashboard-overview.png" alt="HR Dashboard" width="280">
+  <img src="Screenshots/hr-dashboard-overview-1.png" alt="HR Dashboard Overview" width="280">
+  <img src="Screenshots/hr-dashboard-overview-2.png" alt="HR Dashboard Analytics" width="280">
 </div>
 
 ### 👥 Employee Management
 
-<img src="Screenshots/hr-employees.png" alt="HR Employee Management" width="500">
+<img src="Screenshots/hr-employees.png" alt="HR Employee Management" width="400">
 
 ### 🕐 Attendance
 
-<img src="Screenshots/hr-attendance.png" alt="HR Attendance Management" width="500">
+<img src="Screenshots/hr-attendance.png" alt="HR Attendance Management" width="400">
 
 ---
 
@@ -176,7 +176,7 @@ HRMS/
 
 ### 📊 Dashboard
 
-<img src="Screenshots/employee-dashboard.png" alt="Employee Dashboard" width="500">
+<img src="Screenshots/employee-dashboard.png" alt="Employee Dashboard" width="400">
 
 ### 📝 Leave Management
 
