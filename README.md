@@ -1,12 +1,12 @@
 # Employee Management System (HRMS)
 
-A full-featured Human Resource Management System built with **ASP.NET Core MVC**, **C#**, **Entity Framework Core**, and **Microsoft SQL Server**. The platform streamlines core HR operations including employee management, attendance, leave management, payroll, departments, designations, holidays, and audit tracking through a secure, role-based access model for administrators, HR staff, and employees.
+A full-featured Human Resource Management System built with **ASP.NET Core MVC**, **C#**, **Entity Framework Core**, and **Microsoft SQL Server**. The platform streamlines core HR operations including employee management, attendance, leave management, payroll, departments, designations, holidays, and audit tracking with secure, role-based access for administrators, HR staff, and employees.
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
 ![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core%20MVC-8.0-512BD4?logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp\&logoColor=white)
 ![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-8.0-512BD4?logo=dotnet)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver\&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap\&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -40,6 +40,7 @@ HRMS is a centralized web application for managing an organization's workforce. 
 | UI              | Razor Views                                      |
 | Security        | Authentication, Authorization, Claims, Session   |
 | Development     | Visual Studio 2022, SQL Server Management Studio |
+| Version Control | Git, GitHub                                      |
 
 ## 🏗️ Architecture
 
@@ -112,7 +113,7 @@ HRMS/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Please check the [issues page](https://github.com/velpulasaitharun/Employee-Management-System/issues) or open a pull request.
+Contributions, issues, and feature requests are welcome. Please check the [issues page](https://github.com/sai-tharun-velpula/employee-management-system/issues) or open a pull request.
 
 ## 📄 License
 
