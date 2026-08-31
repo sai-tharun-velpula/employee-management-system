@@ -40,7 +40,6 @@ HRMS is a centralized web application for managing an organization's workforce. 
 | UI              | Razor Views                                      |
 | Security        | Authentication, Authorization, Claims, Session   |
 | Development     | Visual Studio 2022, SQL Server Management Studio |
-| Version Control | Git, GitHub                                      |
 
 ## 🏗️ Architecture
 
